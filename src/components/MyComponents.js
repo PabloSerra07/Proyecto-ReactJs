@@ -1,7 +1,7 @@
-const Ejemplo = ()=> {
+const MyComponent = ()=> {
     <h1>
         ejemplo de un commponente
     </h1>
 
 }
-export default Ejemplo;
+export default MyComponent;
