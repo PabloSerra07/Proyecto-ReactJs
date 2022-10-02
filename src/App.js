@@ -10,7 +10,7 @@ import Checkout from './components/Checkout'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='Proyecto-ReactJs'>
       <NavBar/>
       <Routes>
         <Route path='/' element={<ItemListContainer greeting={'Bienvenidos a mi tienda'} />} />
