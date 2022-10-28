@@ -1,6 +1,8 @@
 import Item from "./Item";
 import "./itemList.css";
-const ItemList = ({ products }) => {
+
+
+const ItemList = ({ products = [] }) => {
     return ( 
         <div className="itemList">
             

@@ -6,23 +6,28 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 import ItemDetailContainer from './components/ItemDetail/ItemDetailContainer';
 import Cart from './components/Cart/Cart';
 import Checkout from './components/Checkout'
+import { CartProvider } from './contexts/Cartcontext';
 
 
 function App() {
+
   return (
     <BrowserRouter basename='Proyecto-ReactJs'>
+      <CartProvider>
       <NavBar/>
       <Routes>
-        <Route path='/' element={<ItemListContainer greeting={'Bienvenidos a mi tienda'} />} />
-        <Route path='/category/:categoryId'element={<ItemListContainer greeting={`saludo`}/>} />
+        <Route path='/category/:categoryId'element={<ItemListContainer greeting={``}/>} />
+        <Route path='/' element={<ItemListContainer greeting={'All Products'} />} />
         <Route path='/item/:id'element={<ItemDetailContainer />}/>
         <Route path='/cart'element={<Cart />}/>
         <Route path='/checkout' element={<Checkout />} />
-        
       </Routes>
-      
-      
+      </CartProvider>
     </BrowserRouter>
+
+        
+      
+      
 
     
     

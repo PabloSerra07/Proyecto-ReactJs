@@ -1,8 +1,12 @@
-.counter {
+.itemCount {
     display: flex;
-    flex-direction: row;
     padding: 50px;
     align-items: center;
     color: rgb(255, 60, 0);
     gap: 20px;
+}
+.countContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

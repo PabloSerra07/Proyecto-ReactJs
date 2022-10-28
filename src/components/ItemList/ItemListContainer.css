@@ -1,4 +1,10 @@
 .greeting {
-    text-decoration: underline;
+    text-decoration: none;
     color: grey;
+    text-align: center;
+}
+
+.cntClass {
+    text-align: center;
+    color: red;
 }

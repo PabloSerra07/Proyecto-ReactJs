@@ -4,6 +4,26 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyCsMf-VBz5gY97MpA0ije85TGkKVpD_CHk",
+  authDomain: "rapsodia-games.firebaseapp.com",
+  projectId: "rapsodia-games",
+  storageBucket: "rapsodia-games.appspot.com",
+  messagingSenderId: "371531526024",
+  appId: "1:371531526024:web:039f83c37d57a7dfa5143d"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

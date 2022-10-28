@@ -3,8 +3,14 @@
 }
 .navbar-brand {
     font-size: 40px;
+    padding-right: 15%;
+    
 }
 
 .nav-link{
     font-size: 25px;
+}
+
+.me-auto {
+    gap: 20px;
 }

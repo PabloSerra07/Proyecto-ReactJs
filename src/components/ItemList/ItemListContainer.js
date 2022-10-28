@@ -13,17 +13,15 @@ const [products, setProducts] = useState([]);
     if (categoryId) {
         getProductsByCategory(categoryId)
         .then((data) => setProducts(data))
-        .catch((error) => console.warn(error))
-    } else {
+        } else {
         getAllProducts()
         .then((data) => setProducts(data))
-        .catch((error) => console.warn(error))
         }
     }, [categoryId])
 
     return (
-    <Container>
-        <h1>Productos</h1>
+    <Container >
+        <h1 className='cntClass'>Games Products</h1 >
         <h3 className="greeting">{greeting}</h3>
         <ItemList products={products} />
     </Container>
