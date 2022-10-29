@@ -5,43 +5,38 @@ Este proyecto fue realizado con:
 -ReactJS
 -Boostrap
 -Firtebase
+-CSS
 
-## Available Scripts
+# DEPLOYMENT
 
+https://pabloserra07.github.io/Proyecto-ReactJs/
+
+# DEMO 
+
+https://firebasestorage.googleapis.com/v0/b/rapsodia-games.appspot.com/o/Recording%202022-10-28%20at%2022.26.31.gif?alt=media&token=98aea7b8-c9f6-4b03-b980-132ab4f1c9aa
+
+## Estructura de directorios
+/components
+/contexts
+/utils
+
+
+### Available Scripts
 In the project directory, you can run:
 
-### `npm start`
+### npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### npm run build
+See the section about deployment for more information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Learn More
+You can learn more in the Create React App documentation.
 
+To learn React, check out the React documentation.
 
+# Created By
 
-### `npm run build`
+-Pablo Serra 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-### Deployment
-
-(https://pabloserra07.github.io/Proyecto-ReactJs/)
-
-### Estructura de Directorios
-
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
